@@ -1,0 +1,6 @@
+fastapi
+uvicorn==0.34.0
+qdrant-client
+sentence-transformers
+pypdf
+requests
