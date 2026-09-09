@@ -1,18 +1,20 @@
-#RAG System
+# RAG System
 
 [![Docker Image](https://img.shields.io/docker/v/sadmurai/mlsec-rag-rag-api-1?label=Docker%20Hub&color=blue)](https://hub.docker.com/r/sadmurai/mlsec-rag-rag-api-1)
 
 Ein simples Docker basiertes Rag System basierend auf **FastAPI**, **Qdrant** (Vektordatenbank), **Sentence-Transformers** und **Ollama**.
 
-##Voraussetzungen 
+## Voraussetzungen 
 - **Docker Desktop** (installiert und gestartet)
 - **Ollama Engine & Modell (`llama3.2`):**
 	-**Option A (Lokal):** [Ollama](https://ollama.com/) auf dem Host-System installieren und vorab das Modell `llama3.2` laden.
 	-**Option B (Docker):** Kein lokales Ollama erforderlich.
-	Linux: OLLAMA_BASE_URL=http://ollama:11434 docker compose --profile full up -d
+
+	Linux: OLLAMA_BASE_URL=http://ollama:11434 docker compose --profile full up -d \
 	docker exec -it mlsec-rag-ollama-1 ollama pull llama3.2
 
-	Windows: $env:OLLAMA_BASE_URL="http://ollama:11434"; docker compose --profile full up -d	docker exec -it mlsec-rag-ollama-1 ollama pull llama3.2
+	Windows: $env:OLLAMA_BASE_URL="http://ollama:11434"; docker compose --profile full up -d \
+	docker exec -it mlsec-rag-ollama-1 ollama pull llama3.2
 
 ## Start
 
