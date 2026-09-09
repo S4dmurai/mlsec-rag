@@ -20,7 +20,7 @@ Ein simples Docker basiertes Rag System basierend auf **FastAPI**, **Qdrant** (V
 
 Vektordatenbank wird beim ersten Start mit PDFs in ./documents befüllt.
 
-Beispielsweise zum Thema LLM-Sec:
+Beispielsweise zum Thema LLM-Sec: \
 https://doi.org/10.1016/j.hcc.2024.100211
 https://dl.acm.org/doi/pdf/10.1145/3605764.3623985
 https://arxiv.org/pdf/2307.15043
