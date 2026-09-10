@@ -26,6 +26,6 @@ https://dl.acm.org/doi/pdf/10.1145/3605764.3623985 \
 https://arxiv.org/pdf/2307.15043 \
 https://www.proceedings.com/content/075/075280-3508open.pdf \
 https://arxiv.org/pdf/2209.07858 \
-https://proceedings.mlr.press/v202/wan23b/wan23b.pdf \
+https://proceedings.mlr.press/v202/wan23b/wan23b.pdf 
 
 Nach start des Docker Containers ist das RAG System über http://localhost:8000 erreichbar.
